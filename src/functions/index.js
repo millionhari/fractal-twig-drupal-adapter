@@ -2,6 +2,8 @@
 
 const queryString = require('query-string');
 const drupalAttribute = require('drupal-attribute');
+const yaml = require('js-yaml');
+const fs = require('fs');
 
 module.exports = function (fractal) {
 
